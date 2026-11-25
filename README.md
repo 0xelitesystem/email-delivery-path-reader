@@ -1,8 +1,8 @@
-# Email Header Analyzer
+# Email Delivery Path Reader
 
 Paste the raw headers of an email and this tool reconstructs the delivery path, surfaces the SPF, DKIM and DMARC results, and flags mismatches that can indicate spoofing. It is a defensive, educational tool that reads text only. No server, no tracking, no external dependencies.
 
-**Live demo:** https://0xelitesystem.github.io/email-header-analyzer/
+**Live demo:** https://0xelitesystem.github.io/email-delivery-path-reader/
 
 ## Features
 
@@ -37,8 +37,8 @@ If you use the theme toggle, your light or dark choice is saved in your browser'
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/email-header-analyzer
-cd email-header-analyzer
+git clone https://github.com/0xelitesystem/email-delivery-path-reader
+cd email-delivery-path-reader
 ```
 
 Open `index.html` in a browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
